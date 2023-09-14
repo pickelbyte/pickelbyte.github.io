@@ -1,0 +1,82 @@
+body {
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-left: 5vw;
+}
+
+.game {
+  cursor: pointer;
+  background-color: rgba(169, 169, 169, 0.39);
+  border-radius: 10px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 135px;
+  height: 135px;
+  padding: 3px;
+  margin: 3px;
+  transition: 0.1s ease-in-out;
+}
+
+.game:hover {
+  transform: scale(1.07);
+  box-shadow: 10px 10px 40px black;
+}
+
+.gamepng {
+  border-radius: 10px;
+  height: 100px;
+  width: 125px;
+}
+
+.gametxt {
+  float: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  width: max-content;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+hr {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 70vw;
+}
