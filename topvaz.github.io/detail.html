@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>gameName</title>
+    <meta name="robots" content="noindex,nofollow" />
+		<meta name="description" content="gameName: Play instantly in fullscreen browser, no downloads, no ads. Explore and enjoy various gaming experiences now!">
+	
+  	<style type="text/css">
+.report-modal {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.report-modal-content {
+  background-color: #fefefe;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 320px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.report-label {
+  padding: 0 10px;
+  margin-right: 5px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+</style>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-comments.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+		<!-- Font Awesome icons (free version)-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<!-- Google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SJ5N0ZN3L5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SJ5N0ZN3L5');
+</script>
+
+
+
+
+</head>
+	<body id="page-top" style="background: url('images/background1.png'); background-size: cover;">
+
+
+<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand js-scroll-trigger" href="/"><img src="/images/topvaz_logo.png" width="70" height="35" class="topVAZ-logo" alt="site-logo"></a>
+
+
+				<div class="navbar-collapse collapse" id="nav-menu">
+
+		
+
+				</div>
+				<div class="d-none d-lg-block">
+			
+        <ul class="navbar-nav">
+            <li class="nav-item "><a class="nav-link " href="/car.html">Car</a></li>
+            <li class="nav-item "><a class="nav-link " href="/racing.html">Racing</a></li>
+            <li class="nav-item "><a class="nav-link " href="/skill.html">Skill</a></li>
+            <li class="nav-item "><a class="nav-link " href="/sports.html">Sports</a></li>
+            <li class="nav-item "><a class="nav-link " href="/running.html">Running</a></li>
+            
+            <li class="nav-item "><a class="nav-link " href="/puzzle.html">Puzzle</a></li>
+
+            <li class="nav-item "><a class="nav-link " href="/2-player.html">2 Player</a></li>
+
+        
+
+
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">More</a>
+              <ul role="menu" class="dropdown-menu">
+                <li><a class="dropdown-item" href="/3d.html">3D</a></li>
+                <li><a class="dropdown-item" href="/shooting.html">Shooting</a></li>
+                <li><a class="dropdown-item" href="/moto.html">Moto</a></li>
+                <li><a class="dropdown-item" href="/stickman.html">Stickman</a></li>
+                <li><a class="dropdown-item" href="/adventure.html">Adventure</a></li>
+                <li><a class="dropdown-item" href="/multiplayer.html">Multiplayer</a></li>
+
+            </ul>
+            </li>
+
+          </ul>
+
+
+
+
+				</div>
+			</div>
+		</nav>		
+
+
+
+
+
+
+
+
+
+
+		<div class="container game-wrapper">
+	<div class="game-container">
+		<div class="game-content" data-id="169">
+			<div id="allow_mobile_version"></div>			
+<!-- 
+      <div id="mobile-play" style="display: none;">
+				<div class="mobile-thumb-play">
+					<img src="#">
+				</div>
+				<div id="mobile-play-btn">
+					<i class="bi bi-play-circle-fill"></i>
+				</div>
+			</div> -->
+
+
+
+			<div class="game-iframe-container" id="game-player">
+				<div id="mobile-back-button" draggable="true">
+					<i class="bi bi-x-circle-fill"></i>
+				</div>
+				<iframe class="game-iframe" id="game-area" src="gameLink" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+
+
+		<div class="game-info">
+			<div class="header-left">
+				<h1 class="single-title">gameName</h1>
+
+
+			</div>
+			<div class="header-right">
+
+
+				<div class="b-action2">
+		
+					<a href="#" onclick="open_fullscreen()" class="btn btn-capsule"><i class="bi bi-arrows-fullscreen b-icon"></i>Fullscreen</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="banner-ad-wrapper"><div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+		<!-- ads -->
+	</div>
+	</div>	
+
+
+	<div class="content-wrapper">
+		<div class="row">
+			<div class="col-md-7 game-content">
+				<h5 class="highlight-text">Description:</h5>
+				<div class="single-description">
+					</div>
+				<br>
+				<h5 class="highlight-text">Instructions:</h5>
+				<div class="single-instructions">
+					Arrow keys and touch screen				</div>
+				<br>
+				<div class="single-leaderboard">
+					<div id="content-leaderboard" class="table-responsive" data-id="169"></div>
+				</div>
+				<br>
+				<h5 class="highlight-text">Categories:</h5>
+				<p class="cat-list"> 
+					<ul class="category-list-game"><a href="/racing.html"><li class="cat-item"><span class="icon-category"><img src="/images/icon/racing.svg" alt="Racing" width="40" height="40"></span><span class="cat-name">Racing</span></li></a>
+            <a href="/sports.html"><li class="cat-item"><span class="icon-category"><img src="/images/icon/sport.svg" alt="Sports" width="40" height="40"></span><span class="cat-name">Sports</span></li></a>
+          </ul>				
+        </p>
+
+
+
+
+
+
+			</div>
+
+			<div class="col-md-5">
+				<div class="sidebar">
+	
+
+
+
+	<div class="widget">
+
+
+
+		<h4 class="widget-title">New Games</h4><div class="row gamelist-widget">	
+
+<!-- 
+			<div class="col-3 list-grid">
+				<a title="gameName" href="gameLInk">
+					<div class="list-game">
+						<div class="list-thumbnail"><img src="imgLink" class="small-thumb img-rounded" alt="gameName"></div>
+					</div>
+				</a>
+			</div>
+ -->
+
+ <div class="col-3 list-grid">
+        <a title="We Become What We Behold" href="/play/we-become-what-we-behold.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/we-become-what-we-behold.png" class="small-thumb img-rounded" alt="We Become What We Behold"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Football Legends" href="/play/football-legends.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/football-legends.png" class="small-thumb img-rounded" alt="Football Legends"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Poor Bunny" href="/play/poor-bunny.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/poor-bunny.png" class="small-thumb img-rounded" alt="Poor Bunny"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Idle Digging Tycoon" href="/play/idle-digging-tycoon.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/idle-digging-tycoon.png" class="small-thumb img-rounded" alt="Idle Digging Tycoon"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Soccer Skills Champions League" href="/play/soccer-skills-champions-league.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-skills-champions-league.png" class="small-thumb img-rounded" alt="Soccer Skills Champions League"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Eugenes Life" href="/play/eugenes-life.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/eugenes-life.png" class="small-thumb img-rounded" alt="Eugenes Life"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Who Is" href="/play/who-is.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/who-is.png" class="small-thumb img-rounded" alt="Who Is"></div>
+          </div>
+        </a>
+      </div> 
+      <div class="col-3 list-grid">
+        <a title="Pop It Master" href="/play/pop-it-master.html">
+          <div class="list-game">
+            <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/pop-it-master.png" class="small-thumb img-rounded" alt="Pop It Master"></div>
+          </div>
+        </a>
+      </div> 
+
+
+	</div>
+
+</div>
+
+
+
+
+
+
+	<div class="banner-ad-wrapper"><div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+		<!-- ads -->
+	</div>
+	</div>
+
+
+
+
+
+
+
+</div>			
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+	<div class="bottom-container">
+		<h3 class="item-title">You might also Like</h3>
+		<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/slope.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/slope.png" data-src="https://topvazstore.github.io/img/slope.png" class="lazyload" alt="Slope"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/stack.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stack.png" data-src="https://topvazstore.github.io/img/stack.png" class="lazyload" alt="Stack"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/stack-ball.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stack-ball.png" data-src="https://topvazstore.github.io/img/stack-ball.png" class="lazyload" alt="Stack Ball"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/basketball-stars.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basketball-stars.png" data-src="https://topvazstore.github.io/img/basketball-stars.png" class="lazyload" alt="Basketball Stars"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/tiny-fishing.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/tiny-fishing.png" data-src="https://topvazstore.github.io/img/tiny-fishing.png" class="lazyload" alt="Tiny Fishing"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/smash-karts.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/smash-karts.png" data-src="https://topvazstore.github.io/img/smash-karts.png" class="lazyload" alt="Smash Karts"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/moto-x3m.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/moto-x3m.png" data-src="https://topvazstore.github.io/img/moto-x3m.png" class="lazyload" alt="Moto X3m"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/moto-x3m-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/moto-x3m-2.png" data-src="https://topvazstore.github.io/img/moto-x3m-2.png" class="lazyload" alt="Moto X3m 2"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/moto-x3m-winter.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/moto-x3m-winter.png" data-src="https://topvazstore.github.io/img/moto-x3m-winter.png" class="lazyload" alt="Moto X3m Winter"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/getaway-shootout.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/getaway-shootout.png" data-src="https://topvazstore.github.io/img/getaway-shootout.png" class="lazyload" alt="Getaway Shootout"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/the-impossible-quiz.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/the-impossible-quiz.png" data-src="https://topvazstore.github.io/img/the-impossible-quiz.png" class="lazyload" alt="The Impossible Quiz"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/rooftop-snipers.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/rooftop-snipers.png" data-src="https://topvazstore.github.io/img/rooftop-snipers.png" class="lazyload" alt="Rooftop Snipers"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/rooftop-snipers-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/rooftop-snipers-2.png" data-src="https://topvazstore.github.io/img/rooftop-snipers-2.png" class="lazyload" alt="Rooftop Snipers 2"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/we-become-what-we-behold.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/we-become-what-we-behold.png" data-src="https://topvazstore.github.io/img/we-become-what-we-behold.png" class="lazyload" alt="We Become What We Behold"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/house-of-hazards.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/house-of-hazards.png" data-src="https://topvazstore.github.io/img/house-of-hazards.png" class="lazyload" alt="House Of Hazards"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/master-chess.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/master-chess.png" data-src="https://topvazstore.github.io/img/master-chess.png" class="lazyload" alt="Master Chess"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/football-legends.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/football-legends.png" data-src="https://topvazstore.github.io/img/football-legends.png" class="lazyload" alt="Football Legends"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/rocket-soccer-derby.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/rocket-soccer-derby.png" data-src="https://topvazstore.github.io/img/rocket-soccer-derby.png" class="lazyload" alt="Rocket Soccer Derby"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/big-shot-boxing.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/big-shot-boxing.png" data-src="https://topvazstore.github.io/img/big-shot-boxing.png" class="lazyload" alt="Big Shot Boxing"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/football-masters.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/football-masters.png" data-src="https://topvazstore.github.io/img/football-masters.png" class="lazyload" alt="Football Masters"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/murder.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/murder.png" data-src="https://topvazstore.github.io/img/murder.png" class="lazyload" alt="Murder"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/idle-digging-tycoon.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/idle-digging-tycoon.png" data-src="https://topvazstore.github.io/img/idle-digging-tycoon.png" class="lazyload" alt="Idle Digging Tycoon"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/city-car-driving-stunt-master.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/city-car-driving-stunt-master.png" data-src="https://topvazstore.github.io/img/city-car-driving-stunt-master.png" class="lazyload" alt="City Car Driving: Stunt Master"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/top-speed-3d.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/top-speed-3d.png" data-src="https://topvazstore.github.io/img/top-speed-3d.png" class="lazyload" alt="Top Speed 3d"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/gold-digger-frvr.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/gold-digger-frvr.png" data-src="https://topvazstore.github.io/img/gold-digger-frvr.png" class="lazyload" alt="Gold Digger Frvr"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/idle-lumber-inc.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/idle-lumber-inc.png" data-src="https://topvazstore.github.io/img/idle-lumber-inc.png" class="lazyload" alt="Idle Lumber Inc"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/tiger-simulator-3d.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/tiger-simulator-3d.png" data-src="https://topvazstore.github.io/img/tiger-simulator-3d.png" class="lazyload" alt="Tiger Simulator 3d"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/soccer-skills-champions-league.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/soccer-skills-champions-league.png" data-src="https://topvazstore.github.io/img/soccer-skills-champions-league.png" class="lazyload" alt="Soccer Skills Champions League"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/eugenes-life.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/eugenes-life.png" data-src="https://topvazstore.github.io/img/eugenes-life.png" class="lazyload" alt="Eugenes Life"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/stickman-bike.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stickman-bike.png" data-src="https://topvazstore.github.io/img/stickman-bike.png" class="lazyload" alt="Stickman Bike"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/who-is.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/who-is.png" data-src="https://topvazstore.github.io/img/who-is.png" class="lazyload" alt="Who Is"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/pop-it-master.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/pop-it-master.png" data-src="https://topvazstore.github.io/img/pop-it-master.png" class="lazyload" alt="Pop It Master"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/merge-cyber-racers.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/merge-cyber-racers.png" data-src="https://topvazstore.github.io/img/merge-cyber-racers.png" class="lazyload" alt="Merge Cyber Racers"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/crazy-cars.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/crazy-cars.png" data-src="https://topvazstore.github.io/img/crazy-cars.png" class="lazyload" alt="Crazy Cars"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/penalty-shooters-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/penalty-shooters-2.png" data-src="https://topvazstore.github.io/img/penalty-shooters-2.png" class="lazyload" alt="Penalty Shooters 2"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/idle-ants.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/idle-ants.png" data-src="https://topvazstore.github.io/img/idle-ants.png" class="lazyload" alt="Idle Ants"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/tag.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/tag.png" data-src="https://topvazstore.github.io/img/tag.png" class="lazyload" alt="Tag"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/water-color-sort.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/water-color-sort.png" data-src="https://topvazstore.github.io/img/water-color-sort.png" class="lazyload" alt="Water Color Sort"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/swingo.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/swingo.png" data-src="https://topvazstore.github.io/img/swingo.png" class="lazyload" alt="Swingo"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/jumping-shell.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/jumping-shell.png" data-src="https://topvazstore.github.io/img/jumping-shell.png" class="lazyload" alt="Jumping Shell"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/chicken-merge.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/chicken-merge.png" data-src="https://topvazstore.github.io/img/chicken-merge.png" class="lazyload" alt="Chicken Merge"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/stickman-climb-2.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/stickman-climb-2.png" data-src="https://topvazstore.github.io/img/stickman-climb-2.png" class="lazyload" alt="Stickman Climb 2"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/battle-wheels.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/battle-wheels.png" data-src="https://topvazstore.github.io/img/battle-wheels.png" class="lazyload" alt="Battle Wheels"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/escaping-the-prison.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/escaping-the-prison.png" data-src="https://topvazstore.github.io/img/escaping-the-prison.png" class="lazyload" alt="Escaping The Prison"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/cookie-clicker.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/cookie-clicker.png" data-src="https://topvazstore.github.io/img/cookie-clicker.png" class="lazyload" alt="Cookie Clicker"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/vex-7.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/vex-7.png" data-src="https://topvazstore.github.io/img/vex-7.png" class="lazyload" alt="Vex 7"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/idle-startup-tycoon.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/idle-startup-tycoon.png" data-src="https://topvazstore.github.io/img/idle-startup-tycoon.png" class="lazyload" alt="Idle Startup Tycoon"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/cluster-rush.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/cluster-rush.png" data-src="https://topvazstore.github.io/img/cluster-rush.png" class="lazyload" alt="Cluster Rush"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/basketball-legends.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/basketball-legends.png" data-src="https://topvazstore.github.io/img/basketball-legends.png" class="lazyload" alt="Basketball Legends"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/3d-car-simulator.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/3d-car-simulator.png" data-src="https://topvazstore.github.io/img/3d-car-simulator.png" class="lazyload" alt="3d Car Simulator"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/flying-car-simulator.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/flying-car-simulator.png" data-src="https://topvazstore.github.io/img/flying-car-simulator.png" class="lazyload" alt="Flying Car Simulator"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/super-star-car.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/super-star-car.png" data-src="https://topvazstore.github.io/img/super-star-car.png" class="lazyload" alt="Super Star Car"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/city-rider.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/city-rider.png" data-src="https://topvazstore.github.io/img/city-rider.png" class="lazyload" alt="City Rider"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+<div class="col-lg-2 col-md-3 col-6 grid-3">
+  <a href="/play/cannon-strike.html">
+  <div class="game-item">
+    <div class="list-game">
+      <div class="list-thumbnail"><img src="https://topvazstore.github.io/img/cannon-strike.png" data-src="https://topvazstore.github.io/img/cannon-strike.png" class="lazyload" alt="Cannon Strike"></div>
+    </div>
+  </div>
+  </a>
+</div>  
+
+        
+
+
+
+
+
+
+
+</div>
+	
+
+
+</div>
+
+
+
+
+	<div class="banner-ad-wrapper"><div class="banner-ad-content" style="padding: 20px 0; text-align: center;">
+		<!-- ads -->
+	</div></div></div>
+
+
+
+
+
+
+	<div class="footer-copyright py-4">
+		<div class="container">
+			topVAZ.github.io			<span class="dsb-panel">
+				DMCA			</span>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="/js/jquery-3.6.2.min.js"></script>
+	<script type="text/javascript" src="/js/lazysizes.min.js"></script>
+	<script type="text/javascript" src="/js/popper.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript" src="/js/custom.js"></script>
+
+
+
+
+
+  </body>
+</html>
